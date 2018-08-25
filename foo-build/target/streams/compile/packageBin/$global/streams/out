@@ -18,6 +18,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Time.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/horstmann/package$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/com/horstmann/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Chapter8$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Chapter8$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter5Exercise$Employ.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter5Exercise$Employ.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/DoNothingAction$.class[0m
@@ -44,8 +46,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Hello.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Car.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Car.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Employee.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Employee.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Counter.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Counter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Employee1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Employee1$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Time$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Time$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Network$Member.class[0m
@@ -60,6 +66,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter6Exercise$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Time_4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Time_4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/TrafficLightColor$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/TrafficLightColor$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/PersonNew$.class[0m
@@ -92,6 +100,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter6Exercise$Point$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Person1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Person1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter5Exercise$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter5Exercise$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/BankAccount.class[0m
@@ -112,6 +122,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter7Exercise$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Person.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Person_6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Person_6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/BankAccount$.class[0m
@@ -126,12 +138,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Person_5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Person_5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Chapter8$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Chapter8$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter6Exercise$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter6Exercise$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Hello$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Hello$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter6Exercise$Conversions$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter6Exercise$Conversions$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Person1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Person1$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter6Exercise.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter6Exercise.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/ChecksumAccumulator.class[0m
@@ -140,6 +156,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/UndoableAction.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter4$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter4$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Employee1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Employee1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Person_7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Person_7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/horstmann/T2.class[0m
@@ -156,6 +174,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter7$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/DoNothingAction.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/DoNothingAction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Chapter8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Chapter8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Counter_1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Counter_1.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
