@@ -1,5 +1,7 @@
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/foo-build_2.12-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Chapter8$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Chapter8$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/horstmann/package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/com/horstmann/package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/horstmann[0m
@@ -50,6 +52,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Employee.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Counter.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Counter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Employee2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Employee2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Employee1$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Employee1$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Time$.class[0m
@@ -174,6 +178,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter7$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/DoNothingAction.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/DoNothingAction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Person2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Person2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Chapter8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Chapter8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Counter_1.class[0m

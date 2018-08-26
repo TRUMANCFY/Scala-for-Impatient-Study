@@ -24,6 +24,20 @@ class Person1(var name:String = "Truman", var age:Int = 10) {}
 
 class Employee1(name:String, age:Int, val salary:Double = 0.0) extends Person1(name, age) {}
 
+// 8.6 重写字段：可以用另一个同名的val字段重写一个val（或者不带参数的def）
+// def只能重写另一个def；
+// val只能重写另一个val或不带参数的def；
+// var只能重写另一个抽象的var
+
+// 8.8 抽象类: 可以用abstract关键字来标记不能被实例化的类，通常是因为它的某个或者某几个方法没有被完整定义
+abstract class Person2(val name: String) {
+    def id:Int
+}
+
+class Employee2(name: String) extends Person2(name) {
+    def id = name.hashCode // 不需要override关键字
+}
+
 object Chapter8 extends App {
     var a = new Person
     var b = new Employee
@@ -56,4 +70,19 @@ object Chapter8 extends App {
 
     val p4 = new Employee1("Fengyu", 22)
     println(p4.name + " " + p4.age)
+
+    // 8.7 匿名子类：和java一样 可以通过包含带有定义或重写的代码块的方式创建一个匿名的子类
+    val alien = new Person1("Fred") {
+        def greeting = "Greetings"
+    }
+
+    def meeting(p: Person1{def greeting: String}) {
+        println(p.name + " says: " + p.greeting)
+    }
+
+    meeting(alien)
+
+    // 8.9
+    val p5 = new Employee2("Truman New")
+    println(p5.id)
 }
