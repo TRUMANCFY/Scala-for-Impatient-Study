@@ -38,6 +38,35 @@ class Employee2(name: String) extends Person2(name) {
     def id = name.hashCode // 不需要override关键字
 }
 
+// 8.9 抽象字段：类还可以拥有抽象字段（抽象字段就是一个没有初始值的字段）
+abstract class Person3 {
+    val id: Int // 没有初始化-这是一个带有抽象的getter方法的抽象字段
+    var name: String // 另一个抽象字段，带有抽象的getter和setter方法
+}
+
+class Employee3(val id:Int) extends Person3 {
+    var name = "" // 和具体的name属性
+}
+
+// 8.10 构造顺序和提前定义
+class Creature {
+    val range:Int = 10
+    val env: Array[Int] = new Array[Int](range)
+}
+
+class Ant extends Creature {
+    override val range = 2
+}
+
+// 这样会有问题，env的range会产生歧义，有以下这样几种解决办法
+// 1. 将val声明为final 很安全但是不够灵活
+// 2. 在超类中将val声明为lazy，很安全但是不够高效
+// 3. 在子类中进行提前定义
+class Ant1 extends {
+    override val range = 2
+} with Creature
+
+
 object Chapter8 extends App {
     var a = new Person
     var b = new Employee
@@ -82,7 +111,22 @@ object Chapter8 extends App {
 
     meeting(alien)
 
-    // 8.9
+    // 8.8
     val p5 = new Employee2("Truman New")
     println(p5.id)
+
+    // 8.9 同时也可以用匿名类型来定制抽象字段
+    val fred1 = new Person3 {
+        val id = 1792
+        var name = "Fred"
+    }
+
+    println("name: " + fred1.name + " id: " + fred1.id)
+
+    // 8.10
+    val ant1 = new Ant
+    println(ant1.env)
+
+    val ant2 = new Ant1
+    println(ant2.env)
 }
