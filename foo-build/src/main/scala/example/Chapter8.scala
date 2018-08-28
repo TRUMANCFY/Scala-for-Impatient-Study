@@ -129,4 +129,18 @@ object Chapter8 extends App {
 
     val ant2 = new Ant1
     println(ant2.env)
+
+    // 8.11 Unit和Any的概念完全不一样，将Unit转化为()
+    def printAny(x: Any) { println(x) }
+    def printUnit(x: Unit) { println(x) }
+
+    printAny("Hello")
+    printUnit("Hello")
+
+    // 8.12 对象的相等性, 根据不同类的情况可以重新定义equals
+    // final override def equals(other: Any) = {
+    //  val that = other.asInstatnceOf[Item]
+    //  if (that == null) false
+    //  else description == that.description && price == that.price
+    // }
 }
