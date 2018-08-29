@@ -99,15 +99,15 @@ class LabeledPoint(var label:String, var x:Int, var y:Int) extends Point(x, y) {
 // 6 定义一个抽象类Shape，一个抽象方法centerPoint，以及该抽象类的子类Rectangle和Circle。为子类提供合适的构造器，并重写centerPoint方法
 
 // 7 提供一个Square类，扩展自java.awt.Rectangle并且是三个构造器：一个以给定的端点和宽度构造正方形，一个以(0,0)为端点和给定的宽度构造正方形，一个以(0,0)为端点,0为宽度构造正方形
-import java.awt.{Point, Rectangle}
+import java.awt.{Point=>Point1, Rectangle}
 
-class Square(point:Point, width:Int) extends Rectangle(point.x, point.y, width, width) {
+class Square(point:Point1, width:Int) extends Rectangle(point.x, point.y, width, width) {
     def this() {
-        this(new Point(0,0), 0)
+        this(new Point1(0,0), 0)
     }
 
     def this(width:Int) {
-        this(new Point(0,0), width)
+        this(new Point1(0,0), width)
     }
 }
 
