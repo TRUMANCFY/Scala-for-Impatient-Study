@@ -12,6 +12,8 @@ object Chapter9Exercise extends App {
     val newFileName:String = "/Users/caifengyu/Desktop/scala/foo-build/src/main/scala/example/my_file_new.txt"
     val numberFile:String = "/Users/caifengyu/Desktop/scala/foo-build/src/main/scala/example/numbers.txt"
     val newNumberFile:String = "/Users/caifengyu/Desktop/scala/foo-build/src/main/scala/example/numbers_new.txt"
+    val numberFileNew:String = "/Users/caifengyu/Desktop/scala/foo-build/src/main/scala/example/number.txt"
+
     def revertFile(fileString:String, newFileString:String) {
         val source1 = Source.fromFile(fileString)
         val textArray = source1.getLines.toArray
@@ -67,6 +69,7 @@ object Chapter9Exercise extends App {
     exercise4(numberFile)
 
     // 5 编写scala程序，向文件中写入2的n次方及其倒数，指数n从0到20
+    println("============== 5 ==============")
     def exercise5(fileName:String):Unit = {
         val out = new PrintWriter(fileName)
         for (i <- 0 to 20) {
@@ -74,4 +77,62 @@ object Chapter9Exercise extends App {
         }
     }
     exercise5(newNumberFile)
+
+    // 6.编写正则表达式，匹配Java或C++中带引号的字符串，并将它打印出来
+    println("============== 6 ==============")
+    def exercise6(fileName:String):Unit = {
+        var source:BufferedSource = null
+
+        try {
+            var lines = Source.fromFile(fileName).mkString.split("\n")
+            val pattern = """["']""".r
+            for (line <- lines) {
+                if (pattern.findFirstIn(line) != None) {
+                    println(line)
+                }
+            }
+        }
+        catch {
+            case _: Exception => println("error")
+        }
+        finally {
+            if (source != null) source.close()
+        }
+    }
+    exercise6(fileName)
+
+    //7.读取文件，将非浮点数打印出来，用正则表达式实现
+    println("============== 7 ==============")
+    def exercise7(fileName:String):Unit = {
+        var source:BufferedSource = null
+
+        try {
+            var lines = Source.fromFile(fileName).mkString.split("[\n ]+")
+            val pattern = """\d.\d""".r
+            for (line <- lines) {
+                // println(line)
+                if (pattern.findFirstIn(line) != None) {
+                    println(line)
+                }
+            }
+        }
+        catch {
+            case _: Exception=>println("error")
+        }
+        finally {
+            if (source != null) source.close()
+        }
+    }
+    exercise7(numberFileNew)
+
+    // 9 编写scala文件，判断给定目录下有多少个以.class结尾的文件
+    println("============== 9 ==============")
+    def exercise9(dirName:String):Unit = {
+        import java.io.File
+        val dir = new File(dirName)
+        val fileList = dir.listFiles().filter(_.isFile).filter(_.toString.endsWith(".class"))
+
+        for (f <- fileList) println(f)
+    }
+    exercise9("/Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes")
 }
