@@ -70,9 +70,9 @@ class Car(val mk:String, val typeName:String, val year:Int = -1, var carLic:Stri
 }
 
 object Chapter5Exercise extends App {
-    /* * * * * * * * * *
-1. 改进5.1节的Counter类,让它不要在Int.MaxValue时变成负数
- * * * * * * * * * */
+    /*
+    1. 改进5.1节的Counter类,让它不要在Int.MaxValue时变成负数
+    * */
     println("Q1")
     val c1 =  new Counter_1
     c1.setValue(Int.MaxValue-1)
@@ -82,9 +82,9 @@ object Chapter5Exercise extends App {
     c1.increment()
     println(c1.current)
 
-/* * * * * * * * * *
+/*
 2. 编写一个BankAccount类，加入deposit和withdraw方法，和一个只读的balance属性
- * * * * * * * * * */
+* */
     println("++++++++++++++++++++")
     println("Q2")
     val bank = new BankAccount(100)
@@ -92,9 +92,9 @@ object Chapter5Exercise extends App {
     bank.withdraw(100)
     bank.withdraw(200)
 
-    /* * * * * * * * * *
+    /*
 3. 编写一个Time类，加入只读属性hours和minutes，和一个检查某一时刻是否早于另一时刻的方法 before(other:Time):Boolean。Time对象应该以new Time(hrs,min)方式构建。其中hrs以军用时间格式呈现(介于0和23之间)
- * * * * * * * * * */
+* */
     println("++++++++++++++++++++")
     println("Q3")
     val time1 = new Time(1, 1)
@@ -104,25 +104,25 @@ object Chapter5Exercise extends App {
     println(time1.before(time3))
     println(time2.before(time3))
 
-/* * * * * * * * * *
+/*
 4. 重新实现前一个类中的Time类，将内部呈现改成午夜起的分钟数(介于0到24*60-1之间)。不要改变公有接口。也就是说，客户端代码不应因你的修改而受影响
- * * * * * * * * * */
+* */
     println("++++++++++++++++++++")
     println("Q4")
     val time4 = new Time_4(23, 49)
     println(time4.show)
 
-/* * * * * * * * * *
+/*
 6. 在5.2节的Person类中提供一个主构造器,将负年龄转换为0
- * * * * * * * * * */
+* */
     println("++++++++++++++++++++")
     println("Q6")
     val person_new = new PersonNew(-10)
     println(person_new.age)
 
-/* * * * * * * * * *
+/*
 7. 编写一个Person类，其主构造器接受一个字符串，该字符串包含名字，空格和姓，如new Person("Fred Smith")。提供只读属性firstName和lastName。主构造器参数应该是var,val还是普通参数？为什么？
- * * * * * * * * * */
+* */
     println("++++++++++++++++++++")
     println("Q7")
     val person_split = new PersonSplit("Truman Cai")
