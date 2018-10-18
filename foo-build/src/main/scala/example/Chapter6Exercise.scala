@@ -25,6 +25,8 @@ object Chapter6Exercise extends App {
         def conversions(src:Int): Double;
     }
 
+    // 以下链接讨论的是new和object之间的关系
+    // https://stackoverflow.com/questions/16182735/scala-new-vs-object-extends
     object InchesToCentimeters extends UnitConversion {
         override def conversions(src: Int): Double = src * 2.54
     }

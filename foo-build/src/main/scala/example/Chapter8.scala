@@ -27,7 +27,7 @@ class Employee1(name:String, age:Int, val salary:Double = 0.0) extends Person1(n
 // 8.6 重写字段：可以用另一个同名的val字段重写一个val（或者不带参数的def）
 // def只能重写另一个def；
 // val只能重写另一个val或不带参数的def；
-// var只能重写另一个抽象的var
+// var只能重写另一个抽象的var 见8.8
 
 // 8.8 抽象类: 可以用abstract关键字来标记不能被实例化的类，通常是因为它的某个或者某几个方法没有被完整定义
 abstract class Person2(val name: String) {

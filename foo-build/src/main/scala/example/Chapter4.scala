@@ -19,6 +19,7 @@ while(in.hasNext()) 处理 in.next() 或者翻到第9章看看更Scala的做法�
 * */
   println("Q2")
   val source = scala.io.Source.fromFile("src/main/scala/example/my_file.txt").mkString
+  // println(source)
   val tokens = source.split("\\s+")
   var map_2 = Map[String, Int]()
 
