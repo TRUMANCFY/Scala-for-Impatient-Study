@@ -34,6 +34,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8/Chapter8$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter10/Chapter10$Logger6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter10/Chapter10$Logger6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week3Exercise/Rational.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/week3Exercise/Rational.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter5Exercise$Employ.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter5Exercise$Employ.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter8Exercise/Art.class[0m
@@ -82,6 +84,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter8Exercise/LabeledPoint.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Car.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Car.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week3Exercise/week3Lecture2_5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/week3Exercise/week3Lecture2_5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter9/Chapter9$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter9/Chapter9$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter10/Chapter10$SavingsAccount.class[0m
@@ -176,6 +180,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter10/Chapter10$Account.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter6Exercise$Point$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter6Exercise$Point$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week3Exercise/week3Lecture2_5$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/week3Exercise/week3Lecture2_5$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter10/Chapter10$$anon$2.class[0m
@@ -186,6 +192,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/Chapter10/Chapter10$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter5Exercise$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter5Exercise$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week3Exercise/week3Lecture2_5$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/week3Exercise/week3Lecture2_5$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/BankAccount.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/BankAccount.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter8/Ant1.class[0m
@@ -262,6 +270,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/ChecksumAccumulator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/UndoableAction.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/UndoableAction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week3Exercise[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/week3Exercise[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Chapter4$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/caifengyu/Desktop/scala/foo-build/target/scala-2.12/classes/example/Chapter4$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter10/Chapter10$$anon$1.class[0m
