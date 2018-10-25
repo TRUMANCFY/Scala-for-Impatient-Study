@@ -18,6 +18,17 @@ object week3Lecture2_5 extends App {
     val l = new Rational(2)
     println(l)
 
+    println("2.7 evaluations and operations")
+    val new1 = new Rational(1, 2).numer
+    println(new1)
+
+    val new2 = new Rational(1, 2).less(new Rational(2, 3))
+    println(new2)
+
+    // Use an operator
+    val new3 = (new Rational(1, 2) < new Rational(2, 3))
+    println(new3)
+
     // val strange = new Rational(1, 0)
     // println(strange.add(strange))
 }
@@ -48,4 +59,7 @@ class Rational(x:Int, y:Int) {
     def less(that:Rational):Boolean = numer * that.denom < that.numer * denom
 
     def max(that:Rational):Rational = if (this.less(that)) that else this
+
+    // symbol as operator
+    def < (that:Rational):Boolean = numer * that.denom < that.numer * denom
 }

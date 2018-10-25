@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/caifengyu/Desktop/scala/foo-build/src/main/scala/funcprog/week3.scala:21:9: illegal start of declaration (possible cause: missing `=' in front of current method body)[0m
-[0m[[0m[31merror[0m] [0m[0m        new Rational([0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/caifengyu/Desktop/scala/foo-build/src/main/scala/funcprog/week3b.scala:2:32: type Rational is not a member of object week3bExercise[0m
+[0m[[0m[31merror[0m] [0m[0m    println(new week3bExercise.Rational(1,2))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
